@@ -1,0 +1,1031 @@
+ERROR 2021-07-27 13:54:50,591 exceptions 33644 33436 view:RegisterView,方法 “GET” 不被允许。
+ERROR 2021-07-27 13:57:47,032 exceptions 28380 6220 view:RegisterView,Field name `telephone` is not valid for model `UserProfile`.
+ERROR 2021-07-27 13:58:24,552 exceptions 7088 31504 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')], 'code': [ErrorDetail(string='请确保这个字段至少包含 4 个字符。', code='min_length')]}
+ERROR 2021-07-27 13:58:39,838 exceptions 7088 31504 view:RegisterView,{'non_field_errors': [ErrorDetail(string='验证码错误', code='invalid')]}
+ERROR 2021-07-27 14:06:09,004 exceptions 31336 26796 view:RegisterView,(1062, "Duplicate entry '18958537968' for key 'username'")
+ERROR 2021-07-27 14:15:06,093 exceptions 12688 27808 view:RegisterView,(1062, "Duplicate entry '18958537968' for key 'username'")
+ERROR 2021-07-27 14:16:04,128 exceptions 12688 27808 view:RegisterView,方法 “PUT” 不被允许。
+ERROR 2021-07-27 14:16:11,591 exceptions 12688 27808 view:RegisterView,方法 “DELETE” 不被允许。
+ERROR 2021-07-27 14:32:11,903 exceptions 26752 31976 view:LoginView,方法 “POST” 不被允许。
+ERROR 2021-07-27 14:32:13,378 exceptions 26752 31976 view:LoginView,方法 “POST” 不被允许。
+ERROR 2021-07-27 14:32:13,998 exceptions 26752 31976 view:LoginView,方法 “POST” 不被允许。
+ERROR 2021-07-27 14:32:14,429 exceptions 26752 31976 view:LoginView,方法 “POST” 不被允许。
+ERROR 2021-07-27 14:32:16,599 exceptions 26752 31976 view:LoginView,方法 “POST” 不被允许。
+ERROR 2021-07-27 14:33:57,491 exceptions 32196 24544 view:LoginView,方法 “GET” 不被允许。
+ERROR 2021-07-27 14:35:06,236 exceptions 28396 25848 view:LoginView,Cannot resolve keyword 'telephone' into field. Choices are: avatar, birthday, bookmark, date_joined, email, first_name, gender, groups, id, is_active, is_staff, is_superuser, last_login, last_name, log, logentry, nickname, password, phone, revision, user_permissions, username, usersettings, userwidget
+ERROR 2021-07-27 15:44:54,641 exceptions 33456 12256 view:RegisterView,{'phone': [ErrorDetail(string='该字段是必填项。', code='required')], 'code': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-07-27 15:45:19,559 exceptions 33456 12256 view:RegisterView,{'non_field_errors': [ErrorDetail(string='手机号码已被注册，请直接登录', code='invalid')]}
+ERROR 2021-07-29 18:09:29,159 basehttp 20004 19604 "GET /admin/xadmin/userwidget/add/ HTTP/1.1" 500 708809
+ERROR 2021-07-29 18:09:57,080 basehttp 20004 31248 "GET /admin/xadmin/userwidget/add/ HTTP/1.1" 500 708810
+ERROR 2021-07-29 18:16:17,778 basehttp 33472 33132 "GET /admin/xadmin/userwidget/add/ HTTP/1.1" 500 708787
+ERROR 2021-07-29 18:22:33,571 basehttp 8712 32248 "GET /admin/xadmin/userwidget/add/ HTTP/1.1" 500 708787
+ERROR 2021-07-29 18:32:04,266 basehttp 27468 34292 "GET /admin/xadmin/userwidget/add/ HTTP/1.1" 500 708806
+ERROR 2021-07-29 18:36:30,273 basehttp 34552 35040 "GET /admin/xadmin/userwidget/add/ HTTP/1.1" 500 708806
+ERROR 2021-07-29 18:49:33,778 basehttp 23732 2936 "GET /admin/goods/goods/ HTTP/1.1" 500 173879
+ERROR 2021-07-29 18:49:47,154 basehttp 23732 2936 "GET /admin/goods/goodscategory/ HTTP/1.1" 500 265211
+ERROR 2021-07-29 18:51:51,407 basehttp 26044 35512 "GET /admin/goods/banner/ HTTP/1.1" 500 264144
+ERROR 2021-07-29 18:53:06,922 basehttp 26044 35512 "GET /admin/goods/banner/ HTTP/1.1" 500 264281
+ERROR 2021-07-29 18:58:22,496 basehttp 9056 1952 "GET /admin/trade/orderinfo/ HTTP/1.1" 500 266159
+ERROR 2021-07-30 09:26:57,158 exceptions 18284 13976 view:BannerView,("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the BannerSerializer serializer.",)
+ERROR 2021-07-30 09:27:26,316 exceptions 28144 27468 view:BannerView,("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the BannerSerializer serializer.",)
+ERROR 2021-07-30 09:29:28,104 exceptions 13896 32704 view:BannerView,方法 “POST” 不被允许。
+ERROR 2021-07-30 09:29:32,396 exceptions 13896 32704 view:BannerView,方法 “PUT” 不被允许。
+ERROR 2021-07-30 15:59:37,554 exceptions 7104 25228 view:GoodsListViewSet,The field 'images' was declared on serializer GoodsSerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-30 16:00:14,198 exceptions 21412 8644 view:GoodsListViewSet,The field 'image' was declared on serializer GoodsSerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-30 16:00:57,724 exceptions 17308 23700 view:GoodsListViewSet,Got AttributeError when attempting to get a value for field `image` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Goods` instance.
+Original exception text was: 'Goods' object has no attribute 'image'.
+ERROR 2021-07-30 16:11:27,917 exceptions 17176 9172 view:GoodsListViewSet,The field 'images' was declared on serializer GoodsSerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-30 16:12:00,244 exceptions 3032 26996 view:GoodsListViewSet,The field 'sub_cat' was declared on serializer CategorySerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-30 16:12:21,200 exceptions 13844 20420 view:GoodsListViewSet,Field name `sub_cat` is not valid for model `Goods`.
+ERROR 2021-07-30 16:13:01,640 exceptions 1848 9204 view:GoodsListViewSet,The field 'sub_cat' was declared on serializer CategorySerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-30 16:21:04,729 exceptions 27960 17216 view:GoodsListViewSet,Field name `image` is not valid for model `Goods`.
+ERROR 2021-07-30 16:39:57,659 exceptions 18816 32388 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:40:11,865 exceptions 18816 32388 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:46:35,582 exceptions 6304 13692 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:46:47,541 exceptions 6304 13692 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:46:49,701 exceptions 6304 13692 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:47:44,019 exceptions 24280 21560 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:51:35,441 exceptions 36072 25396 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:51:44,337 exceptions 36072 25396 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:52:45,648 exceptions 18112 24464 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:52:48,264 exceptions 18112 24464 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:52:59,800 exceptions 18684 4180 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:56:04,091 exceptions 20624 30660 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:56:05,770 exceptions 20624 30660 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:56:06,357 exceptions 20624 30660 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:56:06,629 exceptions 20624 30660 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:56:06,800 exceptions 20624 30660 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:56:06,991 exceptions 20624 30660 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 16:59:03,480 basehttp 24164 11484 "GET /goods/list/ HTTP/1.1" 500 115051
+ERROR 2021-07-30 16:59:30,794 exceptions 4128 34420 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 17:03:25,998 exceptions 29892 28284 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 17:03:27,165 exceptions 29892 28284 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 17:03:27,825 exceptions 29892 28284 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 17:05:35,631 exceptions 1692 33424 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 17:05:37,972 exceptions 1692 33424 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 17:09:23,929 exceptions 36652 30016 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 17:09:30,505 exceptions 36652 30016 view:GoodsListViewSet,'OrderingFilter' object has no attribute 'filter_queryset'
+ERROR 2021-07-30 17:12:05,740 exceptions 36092 25264 view:GoodsListViewSet,__init__() got an unexpected keyword argument 'name'
+ERROR 2021-07-30 17:12:45,854 exceptions 30284 7324 view:GoodsListViewSet,top_category_filter() takes 3 positional arguments but 4 were given
+ERROR 2021-07-30 17:26:30,787 exceptions 28624 25936 view:CategoryViewSet,The field 'sub_cat' was declared on serializer CategorySerializer1, but has not been included in the 'fields' option.
+ERROR 2021-07-31 12:04:09,438 exceptions 20904 30280 view:ShoppingCartViewSet,{'nums': [ErrorDetail(string='商品数量不能小于一', code='min_value')]}
+ERROR 2021-07-31 12:15:56,592 exceptions 20904 32672 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000215429384F0>.
+ERROR 2021-07-31 12:17:05,296 exceptions 20904 32672 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000215428824C0>.
+ERROR 2021-07-31 12:17:16,126 exceptions 20904 32672 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000021542887B50>.
+ERROR 2021-07-31 12:21:39,886 exceptions 32836 27072 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000020355CC8880>.
+ERROR 2021-07-31 12:23:35,541 exceptions 17220 2524 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000181C99CE850>.
+ERROR 2021-07-31 12:23:41,577 exceptions 17220 2524 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000181CACF5A60>.
+ERROR 2021-07-31 12:24:00,171 exceptions 30316 1312 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000002242397B160>.
+ERROR 2021-07-31 12:25:13,310 exceptions 2576 22412 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000242870A7730>.
+ERROR 2021-07-31 12:25:16,492 exceptions 2576 22412 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000024286DEECD0>.
+ERROR 2021-07-31 12:26:32,655 exceptions 2576 16836 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-07-31 12:26:38,152 exceptions 2576 16836 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-07-31 12:26:42,509 exceptions 2576 16836 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-07-31 12:27:08,347 exceptions 2576 16836 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-07-31 12:28:36,763 exceptions 36852 15156 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000018228BBA9A0>.
+ERROR 2021-07-31 12:28:43,278 exceptions 36852 15156 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000018228B0C0D0>.
+ERROR 2021-07-31 12:29:08,844 exceptions 36852 15156 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000018228916940>.
+ERROR 2021-07-31 12:32:30,804 exceptions 28908 32508 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000017E6CA40640>.
+ERROR 2021-07-31 12:32:33,685 exceptions 28908 32508 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000017E6C9EF850>.
+ERROR 2021-07-31 12:34:06,018 exceptions 18068 36016 view:ShoppingCartViewSet,name 'serializer_class' is not defined
+ERROR 2021-07-31 12:34:06,179 basehttp 18068 36016 "GET /trade/carts/ HTTP/1.1" 500 101757
+ERROR 2021-07-31 12:34:21,455 exceptions 18068 36016 view:ShoppingCartViewSet,name 'serializer_class' is not defined
+ERROR 2021-07-31 12:34:21,487 basehttp 18068 36016 "GET /trade/carts/ HTTP/1.1" 500 101811
+ERROR 2021-07-31 14:19:14,955 exceptions 33528 36852 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001D02B9EBEB0>.
+ERROR 2021-07-31 14:19:28,317 exceptions 33528 36852 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001D02B91E490>.
+ERROR 2021-07-31 14:19:31,750 exceptions 33528 36852 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001D02B91EC40>.
+ERROR 2021-07-31 14:19:47,110 exceptions 33528 36852 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001D02B91EA00>.
+ERROR 2021-07-31 14:20:15,006 exceptions 33528 36852 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001D02B91E220>.
+ERROR 2021-07-31 14:20:47,145 exceptions 33528 36852 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001D02B91E7F0>.
+ERROR 2021-07-31 14:20:49,210 exceptions 31752 8420 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000225309C7970>.
+ERROR 2021-07-31 14:22:17,750 exceptions 31752 8420 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000022530C14460>.
+ERROR 2021-07-31 14:24:44,704 exceptions 31752 8420 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000022530C021C0>.
+ERROR 2021-07-31 14:26:42,753 exceptions 28332 28392 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000002C131525FD0>.
+ERROR 2021-07-31 14:27:11,379 exceptions 33260 24196 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000150076CEDF0>.
+ERROR 2021-07-31 14:30:53,750 exceptions 14608 17496 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000013B1EAFA490>.
+ERROR 2021-07-31 14:31:50,887 exceptions 14608 17496 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000013B1EAFAE20>.
+ERROR 2021-07-31 14:34:26,022 exceptions 14608 1492 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000013B1EC3D5B0>.
+ERROR 2021-07-31 14:56:13,837 exceptions 16744 16956 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000025B92CC0EE0>.
+ERROR 2021-07-31 14:56:42,696 exceptions 16744 16956 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000025B92C48D90>.
+ERROR 2021-07-31 14:56:43,556 exceptions 16744 16956 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000025B92C438B0>.
+ERROR 2021-07-31 14:57:18,198 exceptions 16744 16956 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000025B92C9CD00>.
+ERROR 2021-07-31 14:57:40,053 exceptions 16744 16956 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000025B92C75F10>.
+ERROR 2021-07-31 14:57:42,143 exceptions 16744 16956 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000025B92C75670>.
+ERROR 2021-07-31 14:57:42,640 exceptions 16744 16956 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000025B92CC0AC0>.
+ERROR 2021-07-31 14:57:44,011 exceptions 16744 16956 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000025B92C5AB80>.
+ERROR 2021-07-31 15:02:13,529 exceptions 31604 30828 view:ShoppingCartViewSet,'ShoppingCartViewSet' object has no attribute 'context'
+ERROR 2021-07-31 15:03:47,667 exceptions 15840 32004 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000291BFFB8070>.
+ERROR 2021-07-31 15:06:23,564 exceptions 15840 32004 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000291BFFE56A0>.
+ERROR 2021-07-31 15:06:25,748 exceptions 15840 32004 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000291C0000820>.
+ERROR 2021-07-31 15:07:03,541 exceptions 15840 32004 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000291BFFA4C70>.
+ERROR 2021-07-31 15:07:04,369 exceptions 15840 32004 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000291BFFA4E80>.
+ERROR 2021-07-31 15:07:04,821 exceptions 15840 32004 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000291C0012A90>.
+ERROR 2021-07-31 15:07:10,697 exceptions 15840 32004 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x00000291C0000D90>.
+ERROR 2021-07-31 15:09:24,836 exceptions 15840 32004 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-07-31 15:10:39,766 exceptions 15840 35612 view:ShoppingCartViewSet,{'nums': [ErrorDetail(string='商品数量不能小于一', code='min_value')]}
+ERROR 2021-07-31 15:25:03,146 exceptions 36220 30704 view:ShoppingCartViewSet,{'nums': [ErrorDetail(string='商品数量不能小于一', code='min_value')]}
+ERROR 2021-07-31 15:25:06,917 exceptions 36220 30704 view:ShoppingCartViewSet,{'nums': [ErrorDetail(string='商品数量不能小于一', code='min_value')]}
+ERROR 2021-07-31 15:26:19,224 exceptions 36220 19988 view:ShoppingCartViewSet,CSRF Failed: CSRF token missing or incorrect.
+ERROR 2021-07-31 15:26:53,670 exceptions 36220 19988 view:ShoppingCartViewSet,CSRF Failed: CSRF token missing or incorrect.
+ERROR 2021-07-31 15:26:56,243 exceptions 36220 19988 view:ShoppingCartViewSet,CSRF Failed: CSRF token missing or incorrect.
+ERROR 2021-07-31 15:27:33,016 exceptions 36220 30704 view:ShoppingCartViewSet,{'nums': [ErrorDetail(string='商品数量不能小于一', code='min_value')]}
+ERROR 2021-07-31 15:30:15,517 exceptions 36220 19988 view:ShoppingCartViewSet,CSRF Failed: CSRF token missing or incorrect.
+ERROR 2021-07-31 15:31:10,179 exceptions 36220 19988 view:ShoppingCartViewSet,CSRF Failed: CSRF token missing or incorrect.
+ERROR 2021-07-31 15:31:32,972 exceptions 36220 19988 view:ShoppingCartViewSet,CSRF Failed: CSRF token missing or incorrect.
+ERROR 2021-07-31 15:32:12,338 exceptions 36220 32940 view:ShoppingCartViewSet,CSRF Failed: CSRF token missing or incorrect.
+ERROR 2021-07-31 15:32:56,865 exceptions 36220 32940 view:ShoppingCartViewSet,CSRF Failed: CSRF cookie not set.
+ERROR 2021-07-31 18:31:58,965 exceptions 34696 28332 view:OrderViewSet,
+ERROR 2021-07-31 18:33:08,419 exceptions 34696 28332 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 00:02:49,443 basehttp 28540 8668 "GET /trade/order/ HTTP/1.1" 500 134182
+ERROR 2021-08-01 00:04:26,296 exceptions 18968 30704 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-01 00:05:48,256 basehttp 18968 30704 "POST /trade/order/ HTTP/1.1" 500 143186
+ERROR 2021-08-01 00:20:33,401 exceptions 24540 32356 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 00:23:52,077 basehttp 1692 18980 "GET /trade/order/ HTTP/1.1" 500 131590
+ERROR 2021-08-01 00:25:13,881 basehttp 21656 32104 "GET /trade/order/ HTTP/1.1" 500 131727
+ERROR 2021-08-01 00:27:32,274 exceptions 15820 31560 view:OrderViewSet,{'post_script': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-01 00:28:32,280 exceptions 19992 6868 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-01 00:33:08,072 exceptions 19992 1128 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000015FE8C38370>.
+ERROR 2021-08-01 00:36:54,839 exceptions 19992 1128 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000015FE8D111C0>.
+ERROR 2021-08-01 00:37:03,477 exceptions 19992 1128 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000015FE8CC7FA0>.
+ERROR 2021-08-01 00:41:44,599 exceptions 19992 1128 view:OrderViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000015FE8D8C850>.
+ERROR 2021-08-01 00:41:46,290 exceptions 19992 1128 view:OrderViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000015FE8BC3AF0>.
+ERROR 2021-08-01 00:41:52,661 exceptions 19992 1128 view:OrderViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000015FE8D3F8E0>.
+ERROR 2021-08-01 00:41:53,398 exceptions 19992 1128 view:OrderViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000015FE8BC3C10>.
+ERROR 2021-08-01 00:52:49,157 exceptions 17380 23480 view:OrderViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001E2ED5C57C0>.
+ERROR 2021-08-01 00:53:23,774 exceptions 17380 23480 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001E2ED48D130>.
+ERROR 2021-08-01 01:00:16,153 basehttp 34788 6184 "GET /trade/test/ HTTP/1.1" 500 101776
+ERROR 2021-08-01 01:01:02,635 basehttp 34788 28384 "GET /trade/test/ HTTP/1.1" 500 124197
+ERROR 2021-08-01 01:01:37,741 exceptions 4396 35856 view:testview,get() takes 1 positional argument but 2 were given
+ERROR 2021-08-01 01:02:29,923 exceptions 8140 34604 view:testview,get() takes 1 positional argument but 2 were given
+ERROR 2021-08-01 01:02:32,070 exceptions 8140 34604 view:testview,get() takes 1 positional argument but 2 were given
+ERROR 2021-08-01 01:02:33,550 exceptions 8140 34604 view:testview,get() takes 1 positional argument but 2 were given
+ERROR 2021-08-01 01:02:34,941 exceptions 8140 34604 view:testview,get() takes 1 positional argument but 2 were given
+ERROR 2021-08-01 01:02:49,748 basehttp 14120 22868 "GET /trade/test/ HTTP/1.1" 500 124334
+ERROR 2021-08-01 01:18:03,430 exceptions 384 31028 view:OrderViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000020E79390A60>.
+ERROR 2021-08-01 01:18:14,628 exceptions 384 31028 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000020E7926CD60>.
+ERROR 2021-08-01 01:21:18,122 exceptions 31564 26140 view:testview,身份认证信息未提供。
+ERROR 2021-08-01 01:21:25,307 exceptions 31564 26140 view:testview,身份认证信息未提供。
+ERROR 2021-08-01 01:24:49,280 exceptions 35068 19176 view:OrderViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001F236324D30>.
+ERROR 2021-08-01 01:24:55,910 exceptions 35068 19176 view:OrderViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x000001F236441C10>.
+ERROR 2021-08-01 01:25:31,744 exceptions 35068 29552 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:25:50,040 exceptions 35068 29552 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:26:19,266 exceptions 35068 29552 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:26:20,622 exceptions 35068 29552 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:26:44,237 exceptions 35068 34576 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:26:54,176 exceptions 35068 19176 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 01:27:10,364 exceptions 35068 19176 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 01:27:42,958 exceptions 35068 19176 view:ShoppingCartViewSet,JSON parse error - Extra data: line 1 column 8 (char 7)
+ERROR 2021-08-01 01:28:43,261 exceptions 35068 19176 view:ShoppingCartViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-01 01:28:46,499 exceptions 35068 19176 view:ShoppingCartViewSet,方法 “PATCH” 不被允许。
+ERROR 2021-08-01 01:30:05,803 exceptions 16284 8940 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:30:07,414 exceptions 16284 8940 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:32:28,448 exceptions 34944 29200 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:32:35,836 exceptions 34944 36296 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:26,476 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:27,968 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:29,548 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:30,388 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:31,059 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:32,380 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:33,041 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:33,642 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:34,258 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:34,813 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:35:35,469 exceptions 8668 21048 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:37:44,398 exceptions 2520 29924 view:ShoppingCartViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-01 01:38:02,531 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:03,997 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:04,822 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:05,468 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:06,057 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:07,027 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:07,585 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:08,112 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:08,615 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:09,228 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:09,788 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:10,364 exceptions 16492 26400 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:42,963 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:44,144 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:45,145 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:45,828 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:46,465 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:49,645 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:50,323 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:50,856 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:52,360 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:53,600 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:38:54,349 exceptions 22240 7352 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:40:04,523 exceptions 21056 25888 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000018FA77A78E0>.
+ERROR 2021-08-01 01:40:18,280 exceptions 21056 25888 view:ShoppingCartViewSet,Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x0000018FA77B6F70>.
+ERROR 2021-08-01 01:41:27,332 exceptions 18600 34148 view:ShoppingCartViewSet,方法 “POST” 不被允许。
+ERROR 2021-08-01 01:41:30,809 exceptions 18600 34148 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 01:42:11,957 exceptions 18600 34148 view:ShoppingCartViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-01 01:42:20,400 exceptions 18600 35696 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:43:29,880 exceptions 18600 35696 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:43:40,616 exceptions 18600 35696 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:43:56,371 exceptions 18600 21332 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:47:18,106 exceptions 18600 22672 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 01:47:19,420 exceptions 18600 22672 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-01 13:40:31,911 exceptions 26144 5068 view:OrderViewSet,Field name `pay_url` is not valid for model `OrderInfo`.
+ERROR 2021-08-01 13:42:18,186 exceptions 33904 31684 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 13:45:16,048 exceptions 30104 32032 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 13:47:54,318 exceptions 24720 14956 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 13:47:56,635 exceptions 24720 14956 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 13:49:41,180 exceptions 33440 16132 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 13:50:00,335 exceptions 33440 16132 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-01 13:50:06,457 exceptions 33440 16132 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 13:50:27,700 exceptions 33440 16132 view:OrderViewSet,This is not a private key
+ERROR 2021-08-01 14:35:52,536 exceptions 25784 36268 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 14:36:20,747 exceptions 25784 21168 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 14:36:54,072 exceptions 380 5492 view:OrderViewSet,get_pay_url() missing 2 required positional arguments: 'order_mount' and 'subject'
+ERROR 2021-08-01 14:37:34,228 exceptions 25092 25944 view:OrderViewSet,get_pay_url() missing 2 required positional arguments: 'order_mount' and 'subject'
+ERROR 2021-08-01 14:37:36,022 exceptions 25092 25944 view:OrderViewSet,get_pay_url() missing 2 required positional arguments: 'order_mount' and 'subject'
+ERROR 2021-08-01 14:44:11,086 exceptions 5664 13920 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-01 14:44:32,834 exceptions 5664 13920 view:OrderViewSet,'OrderSerializer' object has no attribute '_get_pay_url'
+ERROR 2021-08-01 14:46:18,696 exceptions 9416 34384 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 14:46:39,317 exceptions 9416 34384 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 14:46:42,363 exceptions 9416 34384 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 14:46:45,840 exceptions 9416 34384 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 14:46:56,976 exceptions 9416 34384 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 14:47:00,511 exceptions 9416 34384 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 14:47:16,343 exceptions 9416 34384 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-01 14:47:18,903 exceptions 9416 34384 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 14:47:24,645 exceptions 9416 34384 view:OrderViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 14:48:39,211 exceptions 15512 33360 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 14:48:41,638 exceptions 15512 33360 view:OrderViewSet,OrderInfo() got an unexpected keyword argument 'pay_url'
+ERROR 2021-08-01 14:53:08,203 exceptions 4460 26356 view:OrderViewSet,'OrderSerializer' object has no attribute 'get_pay_url'
+ERROR 2021-08-01 14:55:15,644 exceptions 24496 23592 view:OrderViewSet,get_pay_url() missing 2 required positional arguments: 'order_mount' and 'subject'
+ERROR 2021-08-01 14:55:27,052 exceptions 24496 23592 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-01 14:55:29,364 exceptions 24496 23592 view:OrderViewSet,get_pay_url() missing 2 required positional arguments: 'order_mount' and 'subject'
+ERROR 2021-08-01 14:55:38,456 exceptions 24496 23592 view:OrderViewSet,_before_create() missing 1 required positional argument: 'pay_url'
+ERROR 2021-08-01 14:55:59,164 exceptions 35768 34284 view:OrderViewSet,get_pay_url() missing 2 required positional arguments: 'order_mount' and 'subject'
+ERROR 2021-08-01 14:56:01,751 exceptions 35768 34284 view:OrderViewSet,get_pay_url() missing 2 required positional arguments: 'order_mount' and 'subject'
+ERROR 2021-08-01 14:59:09,053 exceptions 9504 31856 view:ShoppingCartViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 15:00:12,317 exceptions 9504 31856 view:ShoppingCartViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 15:01:16,269 exceptions 16160 33856 view:ShoppingCartViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 15:01:35,178 exceptions 16160 33856 view:ShoppingCartViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 15:01:36,034 exceptions 16160 33856 view:ShoppingCartViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 15:01:39,360 exceptions 16160 33856 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 15:01:46,254 exceptions 16160 33856 view:ShoppingCartViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 15:03:52,780 exceptions 25784 28868 view:ShoppingCartViewSet,{'user': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 15:04:48,466 exceptions 16008 29616 view:ShoppingCartViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 15:05:00,056 exceptions 34000 17076 view:ShoppingCartViewSet,(1048, "Column 'user_id' cannot be null")
+ERROR 2021-08-01 15:06:39,857 exceptions 25984 30712 view:ShoppingCartViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-01 15:06:51,145 exceptions 25984 30712 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 15:06:53,262 exceptions 25984 30712 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 15:06:56,362 exceptions 25984 30712 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 15:15:25,741 exceptions 6556 28312 view:ShoppingCartViewSet,Class ShopCartSerializer missing "Meta" attribute
+ERROR 2021-08-01 15:15:34,486 exceptions 6556 28312 view:ShoppingCartViewSet,Class ShopCartSerializer missing "Meta" attribute
+ERROR 2021-08-01 15:15:50,540 exceptions 33360 15732 view:ShoppingCartViewSet,Class ShopCartSerializer missing "Meta.model" attribute
+ERROR 2021-08-01 15:15:55,662 exceptions 33360 15732 view:ShoppingCartViewSet,Class ShopCartSerializer missing "Meta.model" attribute
+ERROR 2021-08-01 15:16:13,495 exceptions 36800 16048 view:ShoppingCartViewSet,{'user': [ErrorDetail(string='该字段是必填项。', code='required')], 'goods': [ErrorDetail(string='期望为一个包含物件的列表，得到的类型是“int”。', code='not_a_list')]}
+ERROR 2021-08-01 15:19:28,734 exceptions 28072 27384 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='期望为一个包含物件的列表，得到的类型是“int”。', code='not_a_list')]}
+ERROR 2021-08-01 15:19:36,581 exceptions 28072 27384 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='期望为一个包含物件的列表，得到的类型是“int”。', code='not_a_list')]}
+ERROR 2021-08-01 15:21:47,785 exceptions 25944 14552 view:OrderViewSet,{'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')], 'order_mount': [ErrorDetail(string='该字段是必填项。', code='required')], 'singer_mobile': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 15:22:41,822 exceptions 25944 14552 view:ShoppingCartViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-01 15:23:56,971 exceptions 25944 14552 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-01 15:24:56,793 exceptions 19768 21560 view:OrderViewSet,{'address': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_name': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 15:31:11,048 exceptions 19680 12828 view:OrderViewSet,{'subject': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 15:31:41,908 exceptions 19680 12828 view:OrderViewSet,{'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 15:32:30,708 exceptions 19680 3092 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-01 15:51:59,438 exceptions 12600 31596 view:OrderViewSet,{'经济学原理（第8版）(套装微观经济学分册+宏观经济学分册 曼昆）': [ErrorDetail(string='商品库存不足', code='invalid')]}
+ERROR 2021-08-01 16:08:15,751 exceptions 20016 8608 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 16:08:25,097 exceptions 20016 8608 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 16:08:46,724 exceptions 20016 8608 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 16:08:57,484 exceptions 20016 8608 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 16:09:01,357 exceptions 20016 8608 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 16:09:04,269 exceptions 20016 8608 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 16:09:07,784 exceptions 20016 8608 view:ShoppingCartViewSet,No ShoppingCart matches the given query.
+ERROR 2021-08-01 16:34:56,023 exceptions 30376 28832 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:35:56,930 exceptions 30376 28832 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:43:24,873 exceptions 11932 34884 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:43:30,430 exceptions 11932 34884 view:ShoppingCartViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-01 16:43:37,942 exceptions 11932 34884 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:44:09,757 exceptions 6676 22316 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:44:11,907 exceptions 6676 22316 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:45:28,587 exceptions 11236 31976 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:46:47,564 exceptions 32592 33436 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:46:48,681 exceptions 32592 33436 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:47:18,923 exceptions 33164 35668 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:47:43,985 exceptions 33164 35668 view:ShoppingCartViewSet,'builtin_function_or_method' object is not subscriptable
+ERROR 2021-08-01 16:47:45,518 exceptions 14892 12356 view:ShoppingCartViewSet,{'non_field_errors': [ErrorDetail(string='商品库存不足', code='invalid')]}
+ERROR 2021-08-01 16:48:10,318 exceptions 32684 24460 view:ShoppingCartViewSet,{'non_field_errors': [ErrorDetail(string='商品库存不足', code='invalid')]}
+ERROR 2021-08-01 16:48:34,440 exceptions 32684 24460 view:ShoppingCartViewSet,{'nums': [ErrorDetail(string='商品数量不能小于一', code='min_value')]}
+ERROR 2021-08-01 16:53:54,516 exceptions 32848 8140 view:ShoppingCartViewSet,方法 “DELETE” 不被允许。
+ERROR 2021-08-01 16:54:20,362 exceptions 32848 8140 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-01 16:56:24,981 exceptions 32848 8140 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 16:56:28,800 exceptions 32848 8140 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 16:56:32,480 exceptions 32848 8140 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-01 17:26:31,683 exceptions 656 5072 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-01 17:27:13,631 exceptions 656 5072 view:UserFavViewSet,{'user': [ErrorDetail(string='该字段是必填项。', code='required')], 'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 17:28:08,932 exceptions 14796 23472 view:UserFavViewSet,{'goods': [ErrorDetail(string='类型错误。期望为主键，获得的类型为 list。', code='incorrect_type')]}
+ERROR 2021-08-01 17:29:58,464 exceptions 14796 23472 view:UserFavViewSet,{'non_field_errors': [ErrorDetail(string='已经收藏', code='unique')]}
+ERROR 2021-08-01 17:30:13,968 exceptions 14796 23472 view:UserFavViewSet,方法 “DELETE” 不被允许。
+ERROR 2021-08-01 17:32:12,362 exceptions 14796 23472 view:LeavingMessageViewSet,{'file': [ErrorDetail(string='没有提交任何文件。', code='required')]}
+ERROR 2021-08-01 17:32:18,341 exceptions 14796 23472 view:LeavingMessageViewSet,{'file': [ErrorDetail(string='没有提交任何文件。', code='required')]}
+ERROR 2021-08-01 17:34:43,851 exceptions 25652 26780 view:LeavingMessageViewSet,{'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'message': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 17:39:01,638 exceptions 26220 32088 view:LeavingMessageViewSet,{'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'message': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 17:40:35,130 exceptions 36176 27548 view:LeavingMessageViewSet,方法 “DELETE” 不被允许。
+ERROR 2021-08-01 17:42:16,053 exceptions 24032 22220 view:LeavingMessageViewSet,No UserLeavingMessage matches the given query.
+ERROR 2021-08-01 17:42:28,104 exceptions 24032 22220 view:LeavingMessageViewSet,No UserLeavingMessage matches the given query.
+ERROR 2021-08-01 17:44:31,922 exceptions 10936 21524 view:AddressViewSet,{'province': [ErrorDetail(string='该字段是必填项。', code='required')], 'city': [ErrorDetail(string='该字段是必填项。', code='required')], 'district': [ErrorDetail(string='该字段是必填项。', code='required')], 'address': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_name': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_mobile': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-01 22:51:15,241 exceptions 17676 14824 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-02 10:17:46,802 exceptions 27772 34156 view:SchemaView,'AutoSchema' object has no attribute 'get_link'
+ERROR 2021-08-02 13:41:28,527 exceptions 22676 12656 view:LoginView,方法 “GET” 不被允许。
+ERROR 2021-08-02 13:54:50,176 exceptions 24336 25828 view:UserView,身份认证信息未提供。
+ERROR 2021-08-02 13:55:30,399 exceptions 24336 25828 view:UserView,Field name `mobile` is not valid for model `UserProfile`.
+ERROR 2021-08-02 13:55:52,794 exceptions 23292 268 view:UserView,方法 “POST” 不被允许。
+ERROR 2021-08-02 13:55:55,617 exceptions 23292 268 view:UserView,方法 “POST” 不被允许。
+ERROR 2021-08-02 13:55:56,345 exceptions 23292 268 view:UserView,方法 “POST” 不被允许。
+ERROR 2021-08-02 13:55:58,934 exceptions 23292 268 view:UserView,方法 “POST” 不被允许。
+ERROR 2021-08-02 13:55:59,786 exceptions 23292 268 view:UserView,方法 “POST” 不被允许。
+ERROR 2021-08-02 13:56:03,320 exceptions 23292 268 view:UserView,{'username': [ErrorDetail(string='该字段是必填项。', code='required')], 'phone': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-02 17:35:45,318 exceptions 36584 27320 view:SendSmsView,方法 “GET” 不被允许。
+ERROR 2021-08-02 17:36:12,871 exceptions 36584 27320 view:SendSmsView,请求超过了限速。 Expected available in 33 seconds.
+ERROR 2021-08-02 17:36:14,652 exceptions 36584 27320 view:SendSmsView,请求超过了限速。 Expected available in 31 seconds.
+ERROR 2021-08-02 18:49:12,600 exceptions 35564 2220 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-02 18:53:58,028 exceptions 35564 2220 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-02 18:54:07,688 exceptions 35564 2220 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-02 18:55:49,459 exceptions 29376 18452 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-02 18:57:18,722 exceptions 29376 18452 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-02 18:58:29,778 exceptions 29376 18452 view:SendSmsView,方法 “GET” 不被允许。
+ERROR 2021-08-02 21:28:22,111 exceptions 4368 14844 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-02 21:28:26,771 exceptions 4368 14844 view:LoginView,方法 “POST” 不被允许。
+ERROR 2021-08-03 11:19:16,873 exceptions 4368 14844 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-03 13:13:15,666 exceptions 4368 4744 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-03 13:16:13,713 exceptions 4368 4744 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-03 13:19:28,653 exceptions 28952 31200 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-03 13:20:47,270 exceptions 24652 30280 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-03 13:21:24,968 exceptions 24652 30280 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-03 13:21:33,419 exceptions 24652 30280 view:LoginView,expected string or bytes-like object
+ERROR 2021-08-03 13:27:53,345 exceptions 14364 11748 view:RegisterView,{'phone': [ErrorDetail(string='该字段是必填项。', code='required')], 'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:27:57,227 exceptions 14364 11748 view:RegisterView,{'phone': [ErrorDetail(string='该字段是必填项。', code='required')], 'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:29:31,708 exceptions 14364 11748 view:RegisterView,{'phone': [ErrorDetail(string='该字段是必填项。', code='required')], 'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:30:00,069 exceptions 14364 11748 view:RegisterView,{'phone': [ErrorDetail(string='该字段是必填项。', code='required')], 'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:30:46,019 exceptions 14364 11748 view:RegisterView,{'non_field_errors': [ErrorDetail(string='验证码错误', code='invalid')]}
+ERROR 2021-08-03 13:31:43,911 exceptions 14364 11748 view:RegisterView,{'non_field_errors': [ErrorDetail(string='验证码错误', code='invalid')]}
+ERROR 2021-08-03 13:31:55,555 exceptions 14364 11748 view:RegisterView,{'non_field_errors': [ErrorDetail(string='手机号码已被注册，请直接登录', code='invalid')]}
+ERROR 2021-08-03 13:32:15,689 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:34:02,720 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:38:31,443 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')], 'code': [ErrorDetail(string='请确保这个字段不能超过 4 个字符。', code='max_length')]}
+ERROR 2021-08-03 13:38:33,226 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')], 'code': [ErrorDetail(string='请确保这个字段不能超过 4 个字符。', code='max_length')]}
+ERROR 2021-08-03 13:38:34,849 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')], 'code': [ErrorDetail(string='请确保这个字段不能超过 4 个字符。', code='max_length')]}
+ERROR 2021-08-03 13:38:36,526 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')], 'code': [ErrorDetail(string='请确保这个字段不能超过 4 个字符。', code='max_length')]}
+ERROR 2021-08-03 13:38:38,151 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')], 'code': [ErrorDetail(string='请确保这个字段不能超过 4 个字符。', code='max_length')]}
+ERROR 2021-08-03 13:38:40,349 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:38:42,236 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:38:43,958 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:38:45,579 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:38:47,208 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:38:48,774 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:38:50,527 exceptions 14364 11748 view:RegisterView,{'password': [ErrorDetail(string='请确保这个字段至少包含 8 个字符。', code='min_length')]}
+ERROR 2021-08-03 13:43:06,810 exceptions 25516 26144 view:RegisterView,{'non_field_errors': [ErrorDetail(string='验证码错误', code='invalid')]}
+ERROR 2021-08-04 16:56:34,088 exceptions 27884 10212 view:IndexCategoryViewSet,The field 'ad_goods' was declared on serializer CategorySerializer2, but has not been included in the 'fields' option.
+ERROR 2021-08-04 16:57:05,983 exceptions 27884 10212 view:IndexCategoryViewSet,The field 'ad_goods' was declared on serializer CategorySerializer2, but has not been included in the 'fields' option.
+ERROR 2021-08-04 17:16:56,925 exceptions 10396 14500 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 17:18:03,402 exceptions 29716 36844 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 17:19:54,510 basehttp 25880 35812 "GET /goods/indexgoods/ HTTP/1.1" 500 299849
+ERROR 2021-08-04 17:20:41,982 basehttp 25880 35812 "GET /goods/indexgoods/ HTTP/1.1" 500 299849
+ERROR 2021-08-04 17:20:43,722 exceptions 12432 34888 view:IndexCategoryViewSet,'dict' object has no attribute 'data'
+ERROR 2021-08-04 18:05:04,457 exceptions 25416 26780 view:GoodsListViewSet,The field 'category' was declared on serializer GoodsSerializer, but has not been included in the 'fields' option.
+ERROR 2021-08-04 18:05:04,460 exceptions 25416 36852 view:IndexCategoryViewSet,The field 'category' was declared on serializer GoodsSerializer, but has not been included in the 'fields' option.
+ERROR 2021-08-04 18:05:13,113 exceptions 25416 26780 view:GoodsListViewSet,The field 'category' was declared on serializer GoodsSerializer, but has not been included in the 'fields' option.
+ERROR 2021-08-04 18:05:13,119 exceptions 25416 31900 view:IndexCategoryViewSet,The field 'category' was declared on serializer GoodsSerializer, but has not been included in the 'fields' option.
+ERROR 2021-08-04 18:25:16,420 exceptions 656 24824 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:31:40,557 exceptions 35272 30968 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:31:44,149 exceptions 35272 32496 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:34:25,908 exceptions 9428 26600 view:IndexCategoryViewSet,goods.serializer.GoodsSerializer() argument after ** must be a mapping, not QuerySet
+ERROR 2021-08-04 18:35:12,740 exceptions 9428 26600 view:IndexCategoryViewSet,goods.serializer.GoodsSerializer() argument after ** must be a mapping, not QuerySet
+ERROR 2021-08-04 18:35:15,503 exceptions 27668 20636 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:36:43,887 exceptions 36128 2344 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:36:45,274 exceptions 36128 2344 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:36:46,716 exceptions 36128 2344 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:36:47,384 exceptions 36128 2344 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:36:47,575 exceptions 36128 2344 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:36:47,762 exceptions 36128 2344 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:36:47,936 exceptions 36128 2344 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:37:02,855 exceptions 35592 29956 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2021-08-04 18:38:53,440 exceptions 35204 29832 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:38:54,950 exceptions 35204 29832 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:38:55,635 exceptions 35204 29832 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:38:56,035 exceptions 35204 29832 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:39:04,798 exceptions 5308 31888 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:41:13,699 exceptions 27124 26876 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:43:07,802 exceptions 29684 30608 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:43:57,953 exceptions 6136 15020 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:44:18,094 exceptions 23536 34476 view:IndexCategoryViewSet,print() argument after ** must be a mapping, not QuerySet
+ERROR 2021-08-04 18:44:24,245 exceptions 23536 34476 view:IndexCategoryViewSet,print() argument after ** must be a mapping, not QuerySet
+ERROR 2021-08-04 18:44:51,209 exceptions 27832 24336 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:48:16,413 exceptions 4716 21064 view:IndexCategoryViewSet,'IndexAd' object is not subscriptable
+ERROR 2021-08-04 18:48:56,848 exceptions 28712 27320 view:IndexCategoryViewSet,'IndexAd' object is not subscriptable
+ERROR 2021-08-04 18:49:14,871 exceptions 22336 30900 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:49:33,774 exceptions 28532 36560 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:50:37,193 exceptions 33124 19052 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:50:45,874 exceptions 35876 21048 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:54:09,341 exceptions 9444 25856 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:54:10,841 exceptions 9444 25856 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:54:18,656 exceptions 25884 15592 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:54:36,137 exceptions 25884 15592 view:IndexCategoryViewSet,Got AttributeError when attempting to get a value for field `name` on serializer `GoodsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `IndexAd` instance.
+Original exception text was: 'IndexAd' object has no attribute 'name'.
+ERROR 2021-08-04 18:54:40,190 exceptions 34480 29340 view:IndexCategoryViewSet,'IndexAd' object is not iterable
+ERROR 2021-08-04 18:55:18,242 exceptions 34480 29340 view:IndexCategoryViewSet,'IndexAd' object is not iterable
+ERROR 2021-08-04 18:55:22,991 exceptions 34480 29340 view:IndexCategoryViewSet,'IndexAd' object is not iterable
+ERROR 2021-08-04 18:55:50,721 exceptions 34480 29340 view:IndexCategoryViewSet,'IndexAd' object is not iterable
+ERROR 2021-08-04 18:55:52,584 exceptions 34480 29340 view:IndexCategoryViewSet,'IndexAd' object is not iterable
+ERROR 2021-08-04 18:56:22,981 exceptions 13064 22388 view:IndexCategoryViewSet,local variable 'i' referenced before assignment
+ERROR 2021-08-04 18:56:57,673 exceptions 13064 22388 view:IndexCategoryViewSet,local variable 'i' referenced before assignment
+ERROR 2021-08-04 18:57:06,328 exceptions 23436 20116 view:IndexCategoryViewSet,local variable 'i' referenced before assignment
+ERROR 2021-08-04 18:57:59,618 exceptions 32736 28844 view:IndexCategoryViewSet,local variable 'i' referenced before assignment
+ERROR 2021-08-04 18:58:03,412 exceptions 32736 28844 view:IndexCategoryViewSet,local variable 'i' referenced before assignment
+ERROR 2021-08-04 19:54:40,373 exceptions 21180 35116 view:IndexCategoryViewSet,The field 'brands' was declared on serializer IndexCategorySerializer, but has not been included in the 'fields' option.
+ERROR 2021-08-04 19:57:25,946 exceptions 20724 23228 view:IndexCategoryViewSet,'ListSerializer' object has no attribute 'id'
+ERROR 2021-08-04 19:57:54,197 exceptions 11044 4660 view:IndexCategoryViewSet,'ListSerializer' object has no attribute 'id'
+ERROR 2021-08-04 19:58:14,988 exceptions 11044 36852 view:IndexCategoryViewSet,'ListSerializer' object has no attribute 'id'
+ERROR 2021-08-04 19:58:19,484 exceptions 35180 36012 view:IndexCategoryViewSet,'ListSerializer' object has no attribute 'id'
+ERROR 2021-08-04 20:00:15,392 exceptions 26240 36536 view:IndexCategoryViewSet,'ListSerializer' object has no attribute 'id'
+ERROR 2021-08-04 20:00:31,091 exceptions 27000 4936 view:IndexCategoryViewSet,'ListSerializer' object has no attribute 'id'
+ERROR 2021-08-04 20:03:52,943 exceptions 19532 36036 view:IndexCategoryViewSet,Field 'id' expected a number but got CategorySerializer2(<QuerySet [<GoodsCategory: 历史>, <GoodsCategory: 哲学/宗教>, <GoodsCategory: 文化>, <GoodsCategory: 政治/军事>, <GoodsCategory: 法律>, <GoodsCategory: 社会科学>, <GoodsCategory: 心理学>]>, many=True):
+    id = IntegerField(label='ID', read_only=True)
+    code = CharField(help_text='类别code', label='类别code', max_length=30, required=False)
+    name = CharField(help_text='类别名', label='类别名', max_length=30, required=False)
+    parent_category = PrimaryKeyRelatedField(allow_null=True, label='父类目级别', queryset=GoodsCategory.objects.all(), required=False)
+    sub_cat = CategorySerializer3(many=True):
+        id = IntegerField(label='ID', read_only=True)
+        code = CharField(help_text='类别code', label='类别code', max_length=30, required=False)
+        name = CharField(help_text='类别名', label='类别名', max_length=30, required=False)
+        parent_category = PrimaryKeyRelatedField(allow_null=True, label='父类目级别', queryset=GoodsCategory.objects.all(), required=False).
+ERROR 2021-08-04 20:17:53,149 exceptions 4612 16032 view:IndexCategoryViewSet,Field 'id' expected a number but got CategorySerializer2(<QuerySet [<GoodsCategory: 历史>, <GoodsCategory: 哲学/宗教>, <GoodsCategory: 文化>, <GoodsCategory: 政治/军事>, <GoodsCategory: 法律>, <GoodsCategory: 社会科学>, <GoodsCategory: 心理学>]>, many=True):
+    id = IntegerField(label='ID', read_only=True)
+    code = CharField(help_text='类别code', label='类别code', max_length=30, required=False)
+    name = CharField(help_text='类别名', label='类别名', max_length=30, required=False)
+    parent_category = PrimaryKeyRelatedField(allow_null=True, label='父类目级别', queryset=GoodsCategory.objects.all(), required=False)
+    sub_cat = CategorySerializer3(many=True):
+        id = IntegerField(label='ID', read_only=True)
+        code = CharField(help_text='类别code', label='类别code', max_length=30, required=False)
+        name = CharField(help_text='类别名', label='类别名', max_length=30, required=False)
+        parent_category = PrimaryKeyRelatedField(allow_null=True, label='父类目级别', queryset=GoodsCategory.objects.all(), required=False).
+ERROR 2021-08-04 20:18:22,446 exceptions 7432 19380 view:IndexCategoryViewSet,Field name `ad_goods` is not valid for model `GoodsCategory`.
+ERROR 2021-08-04 20:18:23,711 exceptions 7432 19380 view:IndexCategoryViewSet,Field name `ad_goods` is not valid for model `GoodsCategory`.
+ERROR 2021-08-04 20:29:34,736 exceptions 13084 16108 view:IndexCategoryViewSet,The field 'sub_cat' was declared on serializer IndexCategorySerializer, but has not been included in the 'fields' option.
+ERROR 2021-08-04 20:29:47,960 exceptions 27092 20080 view:IndexCategoryViewSet,Field name `name` is not valid for model `IndexAd`.
+ERROR 2021-08-04 20:29:59,278 exceptions 35168 34140 view:IndexCategoryViewSet,'RelatedManager' object has no attribute 'pk'
+ERROR 2021-08-04 20:30:40,154 exceptions 32460 25340 view:IndexCategoryViewSet,'RelatedManager' object has no attribute 'pk'
+ERROR 2021-08-04 20:30:41,857 exceptions 32460 25340 view:IndexCategoryViewSet,'RelatedManager' object has no attribute 'pk'
+ERROR 2021-08-04 20:30:53,947 exceptions 34896 15160 view:IndexCategoryViewSet,'RelatedManager' object has no attribute 'pk'
+ERROR 2021-08-04 20:30:55,620 exceptions 31308 15840 view:IndexCategoryViewSet,'RelatedManager' object has no attribute 'pk'
+ERROR 2021-08-04 20:31:02,691 exceptions 28512 9416 view:IndexCategoryViewSet,'RelatedManager' object has no attribute 'pk'
+ERROR 2021-08-04 20:35:01,844 exceptions 29132 36760 view:IndexCategoryViewSet,'Goods' object is not iterable
+ERROR 2021-08-04 20:35:16,836 exceptions 29132 36760 view:IndexCategoryViewSet,'Goods' object is not iterable
+ERROR 2021-08-04 22:32:19,421 exceptions 29552 5224 view:CategoryViewSet,
+ERROR 2021-08-05 02:57:15,902 exceptions 32564 31624 view:ShoppingCartViewSet,身份认证信息未提供。
+ERROR 2021-08-05 03:42:40,240 exceptions 32564 19052 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -shop_price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 03:43:00,323 exceptions 32564 19052 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -shop_price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 03:43:09,055 exceptions 32564 19052 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -shop_price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 09:44:06,598 exceptions 32564 17052 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -shop_price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 09:45:10,650 exceptions 32564 17052 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -shop_price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 10:22:54,216 exceptions 32564 34140 view:GoodsListViewSet,Cannot resolve keyword 'add_time' into field. Choices are: category, category_id, click_num, create_time, fav_num, goods, goods_brief, goods_desc, goods_front_image, goods_num, goods_sn, id, images, is_delete, is_hot, is_new, is_show, market_price, name, ordergoods, ship_free, shop_price, shoppingcart, sold_num, update_time, userfav
+ERROR 2021-08-05 10:22:55,683 exceptions 32564 33456 view:GoodsListViewSet,Cannot resolve keyword 'add_time' into field. Choices are: category, category_id, click_num, create_time, fav_num, goods, goods_brief, goods_desc, goods_front_image, goods_num, goods_sn, id, images, is_delete, is_hot, is_new, is_show, market_price, name, ordergoods, ship_free, shop_price, shoppingcart, sold_num, update_time, userfav
+ERROR 2021-08-05 10:23:14,948 exceptions 32564 34140 view:GoodsListViewSet,Cannot resolve keyword 'add_time' into field. Choices are: category, category_id, click_num, create_time, fav_num, goods, goods_brief, goods_desc, goods_front_image, goods_num, goods_sn, id, images, is_delete, is_hot, is_new, is_show, market_price, name, ordergoods, ship_free, shop_price, shoppingcart, sold_num, update_time, userfav
+ERROR 2021-08-05 10:25:32,163 exceptions 32564 34140 view:GoodsListViewSet,Cannot resolve keyword 'add_time' into field. Choices are: category, category_id, click_num, create_time, fav_num, goods, goods_brief, goods_desc, goods_front_image, goods_num, goods_sn, id, images, is_delete, is_hot, is_new, is_show, market_price, name, ordergoods, ship_free, shop_price, shoppingcart, sold_num, update_time, userfav
+ERROR 2021-08-05 10:25:33,786 exceptions 32564 34140 view:GoodsListViewSet,Cannot resolve keyword 'add_time' into field. Choices are: category, category_id, click_num, create_time, fav_num, goods, goods_brief, goods_desc, goods_front_image, goods_num, goods_sn, id, images, is_delete, is_hot, is_new, is_show, market_price, name, ordergoods, ship_free, shop_price, shoppingcart, sold_num, update_time, userfav
+ERROR 2021-08-05 10:25:45,369 exceptions 32564 33456 view:GoodsListViewSet,Cannot resolve keyword 'add_time' into field. Choices are: category, category_id, click_num, create_time, fav_num, goods, goods_brief, goods_desc, goods_front_image, goods_num, goods_sn, id, images, is_delete, is_hot, is_new, is_show, market_price, name, ordergoods, ship_free, shop_price, shoppingcart, sold_num, update_time, userfav
+ERROR 2021-08-05 10:25:46,556 exceptions 32564 33456 view:GoodsListViewSet,Cannot resolve keyword 'add_time' into field. Choices are: category, category_id, click_num, create_time, fav_num, goods, goods_brief, goods_desc, goods_front_image, goods_num, goods_sn, id, images, is_delete, is_hot, is_new, is_show, market_price, name, ordergoods, ship_free, shop_price, shoppingcart, sold_num, update_time, userfav
+ERROR 2021-08-05 10:25:53,591 exceptions 32564 34140 view:GoodsListViewSet,Cannot resolve keyword 'add_time' into field. Choices are: category, category_id, click_num, create_time, fav_num, goods, goods_brief, goods_desc, goods_front_image, goods_num, goods_sn, id, images, is_delete, is_hot, is_new, is_show, market_price, name, ordergoods, ship_free, shop_price, shoppingcart, sold_num, update_time, userfav
+ERROR 2021-08-05 12:37:25,243 exceptions 32564 35324 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:25,293 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:25,296 exceptions 32564 35324 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:44,028 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:44,078 exceptions 32564 35324 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:44,081 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:47,062 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:47,712 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:48,233 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:48,677 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:49,166 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:49,653 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:50,089 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:37:51,190 exceptions 32564 23020 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:43:52,193 exceptions 32564 22360 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:43:52,203 exceptions 32564 22360 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:43:52,209 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:43:53,239 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:43:53,289 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:43:53,293 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:46:00,598 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:46:00,635 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:46:00,636 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:46:05,131 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:46:05,257 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:46:05,258 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:47:13,482 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:47:13,599 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:47:13,600 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:48:05,916 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:48:05,948 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:48:05,949 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:48:06,631 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:48:06,759 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:48:06,760 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:49:03,224 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:49:03,344 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:49:03,345 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:53:13,953 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:53:14,084 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:53:14,085 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:54:12,422 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:54:12,552 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:54:12,553 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:59:12,202 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:59:12,326 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 12:59:12,327 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:01:47,296 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:01:47,422 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:01:47,423 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:02:09,607 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:02:09,735 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:02:09,736 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:02:35,363 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:02:35,395 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:02:35,396 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:01,400 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:01,523 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:01,524 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:03,526 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:03,957 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:04,550 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:04,965 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:05,496 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:05,996 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:07,056 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:08,470 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:03:09,622 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:20,031 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:20,063 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:20,064 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:20,737 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:20,856 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:20,857 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:29,061 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:29,180 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:29,182 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:53,384 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:53,504 exceptions 32564 16056 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:05:53,505 exceptions 32564 15512 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:11:59,325 exceptions 32564 30568 view:CategoryViewSet,
+ERROR 2021-08-05 13:11:59,326 exceptions 32564 22176 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:11:59,445 exceptions 32564 22176 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:11:59,446 exceptions 32564 30568 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:12:00,829 exceptions 32564 22176 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:12:00,829 exceptions 32564 30568 view:CategoryViewSet,
+ERROR 2021-08-05 13:12:00,959 exceptions 32564 30568 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:12:00,960 exceptions 32564 22176 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:12:09,519 exceptions 32564 30568 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:12:10,188 exceptions 32564 30568 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:12:10,318 exceptions 32564 30568 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:12:10,319 exceptions 32564 22176 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:16,488 exceptions 32564 26468 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:16,517 exceptions 32564 32120 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:16,518 exceptions 32564 26468 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:19,297 exceptions 32564 32120 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:19,417 exceptions 32564 32120 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:19,418 exceptions 32564 26468 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:32,438 exceptions 32564 32120 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:32,471 exceptions 32564 32120 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:24:32,472 exceptions 32564 26468 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:37:22,925 exceptions 35616 26256 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:37:23,036 exceptions 35616 26256 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 13:37:23,037 exceptions 35616 1232 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -id 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:02,293 exceptions 3224 34140 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:02,305 exceptions 3224 34140 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:02,306 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:09,635 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:10,742 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:11,357 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:11,922 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:15,267 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:16,458 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:16,985 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:17,829 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:18,539 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:19,271 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:20,313 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:26,004 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:26,774 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:27,424 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:05:27,904 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:18:11,279 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:18:11,288 exceptions 3224 23164 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:18:11,289 exceptions 3224 34140 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:18:22,339 exceptions 3224 34140 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:18:28,041 exceptions 3224 34140 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:18:28,892 exceptions 3224 34140 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:23:20,950 exceptions 3224 25632 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:23:20,958 exceptions 3224 25632 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:23:20,961 exceptions 3224 4300 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:23:29,634 exceptions 3224 4300 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:23:29,641 exceptions 3224 4300 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:23:29,644 exceptions 3224 25632 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:23:55,762 exceptions 3224 4300 view:CategoryViewSet,No GoodsCategory matches the given query.
+ERROR 2021-08-05 14:24:01,976 exceptions 3224 4300 view:CategoryViewSet,No GoodsCategory matches the given query.
+ERROR 2021-08-05 14:25:25,432 exceptions 3224 4300 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:25:25,444 exceptions 3224 4300 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:25:25,445 exceptions 3224 25632 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:25:27,495 exceptions 3224 25632 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:25:28,532 exceptions 3224 25632 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:35:53,990 exceptions 3224 25484 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:35:53,996 exceptions 3224 25484 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:35:53,999 exceptions 3224 34752 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:40:16,732 exceptions 3224 34752 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:40:16,742 exceptions 3224 25484 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:40:16,744 exceptions 3224 34752 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:49:56,471 exceptions 3224 35012 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:49:56,482 exceptions 3224 35012 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:49:56,483 exceptions 3224 10812 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:49:57,524 exceptions 3224 10812 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 14:49:58,582 exceptions 3224 10812 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 15:04:31,332 exceptions 3224 10812 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 15:04:31,339 exceptions 3224 10812 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 15:04:31,343 exceptions 3224 35012 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 15:04:32,685 exceptions 3224 35012 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -price 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 15:04:33,221 exceptions 3224 35012 view:GoodsListViewSet,{'ordering': [ErrorDetail(string='选择一个有效的选项。 -students 不在可用的选项中。', code='invalid_choice')]}
+ERROR 2021-08-05 17:40:11,211 exceptions 34220 20276 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-05 17:40:18,755 exceptions 34220 20276 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-05 17:51:32,897 exceptions 34220 34984 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='类型错误。期望为主键，获得的类型为 list。', code='incorrect_type')]}
+ERROR 2021-08-05 17:51:36,322 exceptions 34220 34984 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='类型错误。期望为主键，获得的类型为 list。', code='incorrect_type')]}
+ERROR 2021-08-05 20:28:55,985 exceptions 34220 20276 view:UserFavViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-05 20:29:43,196 exceptions 34220 20276 view:UserFavViewSet,方法 “POST” 不被允许。
+ERROR 2021-08-05 20:29:46,012 exceptions 34220 20276 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 20:48:06,711 exceptions 34220 20276 view:UserFavViewSet,方法 “POST” 不被允许。
+ERROR 2021-08-05 20:48:09,964 exceptions 34220 20276 view:UserFavViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-05 20:59:57,041 exceptions 34220 20276 view:UserFavViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-05 21:00:35,483 exceptions 34220 20276 view:UserFavViewSet,方法 “DELETE” 不被允许。
+ERROR 2021-08-05 21:00:48,998 exceptions 34220 20276 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 21:11:08,375 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:13:20,843 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:14:24,549 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:17:00,974 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:20:29,084 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:21:14,308 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:21:45,825 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:22:30,213 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:22:31,610 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:25:51,581 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:25:56,565 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:26:55,210 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:26:59,235 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:27:04,824 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:27:09,530 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:31:49,408 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:32:38,713 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:34:43,263 exceptions 34220 31448 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:34:46,930 exceptions 34220 34608 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:40:16,843 exceptions 34220 18168 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:41:02,605 exceptions 34220 35508 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:41:05,191 exceptions 34220 18168 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:41:53,500 exceptions 34220 35508 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:41:54,655 exceptions 34220 18168 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:43:14,712 exceptions 34220 35508 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:43:46,601 exceptions 34220 18168 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:44:31,079 exceptions 34220 35508 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:44:54,094 exceptions 34220 18168 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:45:44,058 exceptions 34220 35508 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:47:20,270 exceptions 34220 18168 view:UserFavViewSet,身份认证信息未提供。
+ERROR 2021-08-05 21:52:23,602 exceptions 34220 22848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 21:52:26,446 exceptions 34220 32252 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 21:53:51,389 exceptions 34220 22848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 21:55:02,770 exceptions 34220 32252 view:UserFavViewSet,{'non_field_errors': [ErrorDetail(string='已经收藏', code='unique')]}
+ERROR 2021-08-05 21:55:24,520 exceptions 34220 20276 view:UserFavViewSet,方法 “DELETE” 不被允许。
+ERROR 2021-08-05 21:56:58,302 exceptions 34220 32252 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 21:57:26,772 exceptions 34220 13848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 21:57:27,659 exceptions 34220 32252 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 21:58:35,594 exceptions 34220 13848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:02:42,829 exceptions 34220 13848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:02:45,438 exceptions 34220 32252 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:04:42,571 exceptions 34220 13848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:04:43,467 exceptions 34220 32252 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:07:55,262 exceptions 34220 13848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:08:17,233 exceptions 34220 32252 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:08:18,735 exceptions 34220 13848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:08:45,698 exceptions 34220 32252 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:10:02,235 exceptions 34220 13848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:10:28,530 exceptions 34220 32252 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:11:01,294 exceptions 34220 13848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:16:30,565 exceptions 34220 15696 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:16:30,587 exceptions 34220 15696 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:16:59,005 exceptions 34220 29616 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:18:18,538 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:18:21,207 exceptions 34220 29616 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:18:53,358 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:18:54,915 exceptions 34220 29616 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:19:43,258 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:19:52,101 exceptions 34220 29616 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:20:20,797 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:20:49,464 exceptions 34220 29616 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:21:14,648 exceptions 34220 29616 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:21:37,159 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:22:07,478 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:25:03,935 exceptions 34220 29616 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:25:03,960 exceptions 34220 29616 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:28:27,291 exceptions 34220 36576 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:28:30,346 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:29:01,991 exceptions 34220 36576 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:30:38,636 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:34:32,789 exceptions 34220 36576 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:35:23,679 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:35:33,222 exceptions 34220 36576 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:35:42,020 exceptions 34220 33400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:35:58,780 exceptions 34220 36576 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:41:36,784 exceptions 34220 29184 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:59:05,639 exceptions 30116 34832 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-05 22:59:15,862 exceptions 30116 34832 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 00:53:02,953 exceptions 18240 36440 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 00:54:05,371 exceptions 8096 19988 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 00:54:41,921 exceptions 20428 27176 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 00:56:23,471 exceptions 33488 22372 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 00:57:50,861 exceptions 26616 14180 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 00:58:27,444 exceptions 28448 36096 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 00:58:50,919 exceptions 28448 34552 view:UserFavViewSet,{'non_field_errors': [ErrorDetail(string='已经收藏', code='unique')]}
+ERROR 2021-08-06 01:02:58,754 exceptions 28448 34552 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:06:17,907 exceptions 28448 25884 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:16:13,702 exceptions 28448 12164 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:19:25,371 exceptions 28448 34476 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:19:25,378 exceptions 28448 34476 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:25:08,948 exceptions 28448 29356 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:27:53,476 exceptions 28448 2740 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:28:42,281 exceptions 28448 29356 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:29:17,317 exceptions 28448 2740 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:30:48,058 exceptions 28448 29356 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:45:20,306 exceptions 28448 13068 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:52:42,026 exceptions 28448 36392 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:53:58,863 exceptions 28448 22524 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 01:57:25,241 exceptions 28448 36392 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:38:22,155 exceptions 28448 7400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:38:24,338 exceptions 28448 32788 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:39:16,788 exceptions 28448 7400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:39:42,610 exceptions 28448 32788 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:41:43,128 exceptions 28448 7400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:43:19,857 exceptions 28448 32788 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:44:46,825 exceptions 28448 7400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:46:36,769 exceptions 28448 32788 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:47:16,724 exceptions 28448 7400 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 10:51:47,562 exceptions 28448 32788 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 11:01:32,523 exceptions 28448 10364 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:23:33,557 exceptions 28448 1920 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:25:07,888 exceptions 28448 22088 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:29:02,328 exceptions 28448 1920 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:29:04,478 exceptions 28448 22088 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:32:19,300 exceptions 28448 1920 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:33:24,922 exceptions 28448 22088 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:39:31,744 exceptions 28448 25052 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:41:07,728 exceptions 28448 32064 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:41:29,707 exceptions 28448 25052 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:42:12,215 exceptions 28448 32064 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:42:19,876 exceptions 28448 25052 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:42:34,689 exceptions 28448 32064 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:42:59,520 exceptions 28448 25052 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:50:15,443 exceptions 28448 16312 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:51:04,134 exceptions 28448 35536 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:52:49,974 exceptions 28448 16312 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:56:25,340 exceptions 28448 35536 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 14:56:38,237 exceptions 28448 16312 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:01:49,258 exceptions 28448 24644 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:07:35,339 exceptions 34528 18712 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:07:42,439 exceptions 34528 19332 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:08:34,471 exceptions 34528 18712 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:11:02,102 exceptions 34528 30608 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:11:34,054 exceptions 34528 12872 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:11:36,383 exceptions 34528 30608 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:12:43,281 exceptions 34528 12872 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:16:18,506 exceptions 34528 30608 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:18:50,720 exceptions 34528 12872 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:45:29,012 exceptions 21828 29248 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:50:06,407 exceptions 21828 29248 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:50:13,977 exceptions 21828 2940 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:50:22,637 exceptions 21828 22180 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:52:22,379 exceptions 21828 2940 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:53:06,147 exceptions 21828 29248 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:54:14,731 exceptions 21828 22180 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 15:57:34,559 exceptions 21828 22180 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 16:08:02,287 exceptions 21828 2940 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 16:08:07,120 exceptions 21828 4848 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 16:09:16,512 exceptions 21828 14812 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 16:10:43,615 exceptions 21828 14812 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 16:17:51,631 exceptions 21828 33292 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 16:18:12,617 exceptions 21828 36604 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 16:18:24,583 exceptions 21828 23040 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 16:19:37,806 exceptions 21828 33292 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-06 21:28:28,570 exceptions 21828 11172 view:CategoryViewSet,No GoodsCategory matches the given query.
+ERROR 2021-08-06 21:28:36,097 exceptions 21828 11172 view:CategoryViewSet,No GoodsCategory matches the given query.
+ERROR 2021-08-06 21:28:39,724 exceptions 21828 11172 view:CategoryViewSet,No GoodsCategory matches the given query.
+ERROR 2021-08-06 21:28:43,572 exceptions 21828 4028 view:CategoryViewSet,No GoodsCategory matches the given query.
+ERROR 2021-08-06 21:30:20,937 exceptions 21828 11172 view:CategoryViewSet,No GoodsCategory matches the given query.
+ERROR 2021-08-06 21:31:48,870 exceptions 21828 33616 view:CategoryViewSet,No GoodsCategory matches the given query.
+ERROR 2021-08-07 15:55:14,476 exceptions 14120 31824 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 15:55:52,904 exceptions 14120 31824 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 15:57:00,067 exceptions 14120 34236 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 16:02:48,483 exceptions 14120 32292 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 16:05:37,642 exceptions 14120 3820 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 16:06:10,392 exceptions 14120 31288 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 16:13:11,365 exceptions 14120 25364 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 16:15:33,388 exceptions 14120 23436 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 16:21:37,132 exceptions 14120 23436 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 16:23:14,741 exceptions 14120 26368 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 19:31:13,522 exceptions 14120 27632 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 20:07:16,798 exceptions 14120 26428 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-07 20:07:20,186 exceptions 14120 35520 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-08 08:55:33,293 exceptions 14120 2932 view:ShoppingCartViewSet,Signature has expired.
+ERROR 2021-08-08 08:55:40,311 exceptions 14120 2932 view:ShoppingCartViewSet,Signature has expired.
+ERROR 2021-08-08 10:16:15,340 exceptions 14120 26332 view:AddressViewSet,身份认证信息未提供。
+ERROR 2021-08-08 10:17:08,466 exceptions 14120 2932 view:AddressViewSet,Signature has expired.
+ERROR 2021-08-08 10:24:40,535 exceptions 14120 2932 view:ShoppingCartViewSet,方法 “PATCH” 不被允许。
+ERROR 2021-08-08 10:24:45,707 exceptions 14120 2932 view:ShoppingCartViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-08 10:25:08,144 exceptions 14120 2932 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 10:25:11,288 exceptions 14120 2932 view:ShoppingCartViewSet,'NoneType' object has no attribute 'goods_num'
+ERROR 2021-08-08 12:08:30,873 exceptions 14120 2932 view:ShoppingCartViewSet,方法 “POST” 不被允许。
+ERROR 2021-08-08 12:08:36,580 exceptions 14120 2932 view:ShoppingCartViewSet,方法 “POST” 不被允许。
+ERROR 2021-08-08 12:08:37,606 exceptions 14120 2932 view:ShoppingCartViewSet,方法 “POST” 不被允许。
+ERROR 2021-08-08 12:11:08,058 exceptions 14120 2932 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 12:11:25,924 exceptions 14120 2932 view:ShoppingCartViewSet,方法 “POST” 不被允许。
+ERROR 2021-08-08 12:38:09,781 basehttp 14120 9504 "PUT /operation/address/5 HTTP/1.1" 500 77921
+ERROR 2021-08-08 12:38:21,171 exceptions 14120 33460 view:AddressViewSet,No UserAddress matches the given query.
+ERROR 2021-08-08 12:38:24,250 basehttp 14120 33460 "PUT /operation/address/1 HTTP/1.1" 500 77921
+ERROR 2021-08-08 12:39:38,595 basehttp 14120 28288 "PUT /operation/address/5 HTTP/1.1" 500 77921
+ERROR 2021-08-08 12:39:45,502 basehttp 14120 30368 "PUT /operation/address/15 HTTP/1.1" 500 77937
+ERROR 2021-08-08 12:39:46,885 basehttp 14120 37236 "PUT /operation/address/15 HTTP/1.1" 500 77937
+ERROR 2021-08-08 15:06:20,008 basehttp 14120 32184 "PUT /operation/address/1 HTTP/1.1" 500 77921
+ERROR 2021-08-08 15:06:23,731 basehttp 14120 27236 "PUT /operation/address/1 HTTP/1.1" 500 77921
+ERROR 2021-08-08 15:06:26,686 basehttp 14120 10476 "PUT /operation/address/1 HTTP/1.1" 500 77921
+ERROR 2021-08-08 15:07:32,225 basehttp 14120 25372 "PUT /trade/cart/1 HTTP/1.1" 500 77809
+ERROR 2021-08-08 15:08:04,945 basehttp 14120 22968 "PUT /trade/cart/1 HTTP/1.1" 500 77809
+ERROR 2021-08-08 15:08:22,455 exceptions 14120 2932 view:ShoppingCartViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-08 15:08:29,096 basehttp 14120 2932 "PUT /trade/cart/1 HTTP/1.1" 500 76204
+ERROR 2021-08-08 15:08:36,133 exceptions 14120 33688 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 15:10:12,082 basehttp 14120 35380 "PUT /trade/cart/1 HTTP/1.1" 500 77809
+ERROR 2021-08-08 15:10:14,232 basehttp 14120 23660 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:10:14,855 basehttp 14120 25716 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:10:15,065 basehttp 14120 28336 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:10:15,262 basehttp 14120 18980 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:10:15,458 basehttp 14120 31420 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:10:15,642 basehttp 14120 36664 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:10:15,826 basehttp 14120 30408 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:10:16,016 basehttp 14120 27316 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:10:16,201 basehttp 14120 30476 "PUT /trade/cart/15 HTTP/1.1" 500 77825
+ERROR 2021-08-08 15:43:16,286 exceptions 14120 17632 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 15:43:16,803 exceptions 14120 17632 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 15:43:27,605 exceptions 14120 17632 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 15:43:28,232 exceptions 14120 17632 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 15:43:28,427 exceptions 14120 17632 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 15:43:35,024 exceptions 14120 17632 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 15:43:36,930 exceptions 14120 17632 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 15:43:41,351 exceptions 14120 17632 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 16:02:48,751 exceptions 14120 33688 view:UserView,身份认证信息未提供。
+ERROR 2021-08-08 16:02:59,715 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:03:04,085 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:03:09,005 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:03:12,168 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:03:15,152 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:03:18,333 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:11:07,814 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:11:09,125 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:11:09,685 exceptions 14120 33688 view:UserView,No UserProfile matches the given query.
+ERROR 2021-08-08 16:19:53,405 exceptions 34752 36096 view:UserView,{'username': [ErrorDetail(string='该字段是必填项。', code='required')], 'phone': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 16:32:26,145 exceptions 34752 36096 view:LeavingMessageViewSet,方法 “PUT” 不被允许。
+ERROR 2021-08-08 16:52:44,967 exceptions 34752 36096 view:AddressViewSet,身份认证信息未提供。
+ERROR 2021-08-08 16:53:51,875 exceptions 34752 36096 view:AddressViewSet,{'province': [ErrorDetail(string='该字段是必填项。', code='required')], 'city': [ErrorDetail(string='该字段是必填项。', code='required')], 'district': [ErrorDetail(string='该字段是必填项。', code='required')], 'address': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_name': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_mobile': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-08 16:55:20,717 exceptions 34752 36096 view:AddressViewSet,方法 “PATCH” 不被允许。
+ERROR 2021-08-08 16:55:24,181 exceptions 34752 36096 view:AddressViewSet,No UserAddress matches the given query.
+ERROR 2021-08-08 20:51:49,564 exceptions 34752 37044 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-08 21:09:12,315 exceptions 34752 17932 view:OrderViewSet,
+ERROR 2021-08-08 22:02:18,617 exceptions 21948 36720 view:OrderViewSet,
+ERROR 2021-08-08 22:02:28,150 exceptions 21948 36720 view:OrderViewSet,
+ERROR 2021-08-08 23:09:02,187 exceptions 21948 1160 view:OrderViewSet,
+ERROR 2021-08-08 23:10:25,561 exceptions 21948 37688 view:OrderViewSet,
+ERROR 2021-08-09 00:40:59,393 exceptions 17480 37880 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-09 03:44:08,559 exceptions 17480 28056 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 03:44:15,638 exceptions 17480 28056 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 03:44:26,125 exceptions 17480 28056 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:44,268 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:45,437 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:45,622 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:45,806 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:45,965 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:46,143 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:46,326 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:48,040 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:48,254 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:13:51,517 exceptions 17480 11800 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:14:53,365 exceptions 17480 21180 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:14:53,906 exceptions 17480 21180 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:14:54,112 exceptions 17480 21180 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:14:54,286 exceptions 17480 21180 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:14:54,464 exceptions 17480 21180 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:15:33,079 exceptions 17480 21180 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 04:15:38,712 exceptions 17480 21180 view:AddressViewSet,{'province': [ErrorDetail(string='该字段不能为空。', code='blank')], 'city': [ErrorDetail(string='该字段不能为空。', code='blank')], 'district': [ErrorDetail(string='该字段不能为空。', code='blank')]}
+ERROR 2021-08-09 05:34:33,260 exceptions 17480 37740 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-09 09:47:37,339 exceptions 17480 26872 view:UserView,方法 “POST” 不被允许。
+ERROR 2021-08-09 09:47:40,392 exceptions 17480 26872 view:UserView,{'username': [ErrorDetail(string='该字段是必填项。', code='required')], 'phone': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 10:40:51,552 exceptions 17480 37876 view:UserView,{'avatar': [ErrorDetail(string='提交的数据不是一个文件。请检查表单的编码类型。', code='invalid')], 'gender': [ErrorDetail(string='“男” 不是合法选项。', code='invalid_choice')], 'birthday': [ErrorDetail(string='日期格式错误。请从这些格式中选择：YYYY-MM-DD。', code='invalid')]}
+ERROR 2021-08-09 10:47:16,369 exceptions 25416 17656 view:UserView,{'gender': [ErrorDetail(string='“0” 不是合法选项。', code='invalid_choice')], 'birthday': [ErrorDetail(string='日期格式错误。请从这些格式中选择：YYYY-MM-DD。', code='invalid')]}
+ERROR 2021-08-09 10:52:39,686 exceptions 25416 17656 view:UserView,{'gender': [ErrorDetail(string='“0” 不是合法选项。', code='invalid_choice')]}
+ERROR 2021-08-09 11:27:15,137 exceptions 25416 16020 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-09 11:27:24,894 exceptions 25416 15780 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-09 11:27:34,358 exceptions 25416 16020 view:UserFavViewSet,No UserFav matches the given query.
+ERROR 2021-08-09 11:41:39,913 exceptions 25416 3224 view:OrderViewSet,{'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')], 'order_mount': [ErrorDetail(string='该字段是必填项。', code='required')], 'address': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_name': [ErrorDetail(string='该字段是必填项。', code='required')], 'singer_mobile': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 11:47:34,442 exceptions 25416 20092 view:OrderViewSet,{'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 11:49:06,754 exceptions 25416 20092 view:OrderViewSet,{'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 11:56:54,688 exceptions 29712 37656 view:OrderViewSet,No OrderInfo matches the given query.
+ERROR 2021-08-09 11:57:10,765 exceptions 29712 37656 view:OrderViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')], 'user': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 11:58:41,217 exceptions 29712 31128 view:ShoppingCartViewSet,{'non_field_errors': [ErrorDetail(string='商品库存不足', code='invalid')]}
+ERROR 2021-08-09 11:58:46,691 exceptions 29712 31128 view:OrderViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')], 'subject': [ErrorDetail(string='该字段不能为空。', code='blank')], 'address': [ErrorDetail(string='该字段不能为空。', code='blank')], 'signer_name': [ErrorDetail(string='该字段不能为空。', code='blank')], 'singer_mobile': [ErrorDetail(string='该字段不能为空。', code='blank')], 'user': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 11:59:32,491 exceptions 26488 33232 view:ShoppingCartViewSet,{'non_field_errors': [ErrorDetail(string='商品库存不足', code='invalid')]}
+ERROR 2021-08-09 11:59:35,241 exceptions 26488 33232 view:OrderViewSet,{'non_field_errors': [ErrorDetail(string='价格不合法', code='invalid')]}
+ERROR 2021-08-09 12:01:23,189 exceptions 26488 31504 view:OrderViewSet,{'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')], 'order_mount': [ErrorDetail(string='该字段是必填项。', code='required')], 'address': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_name': [ErrorDetail(string='该字段是必填项。', code='required')], 'singer_mobile': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 12:01:36,483 exceptions 26488 31504 view:OrderViewSet,{'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')], 'order_mount': [ErrorDetail(string='该字段是必填项。', code='required')], 'address': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_name': [ErrorDetail(string='该字段是必填项。', code='required')], 'singer_mobile': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 12:02:33,709 exceptions 26488 31504 view:ShoppingCartViewSet,Signature has expired.
+ERROR 2021-08-09 12:04:16,578 exceptions 11480 6824 view:OrderViewSet,{'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')], 'order_mount': [ErrorDetail(string='该字段是必填项。', code='required')], 'address': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_name': [ErrorDetail(string='该字段是必填项。', code='required')], 'singer_mobile': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 12:05:01,915 exceptions 11480 6824 view:ShoppingCartViewSet,{'goods': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 12:05:57,770 exceptions 11480 22088 view:OrderViewSet,身份认证信息未提供。
+ERROR 2021-08-09 12:11:28,789 exceptions 11480 6824 view:OrderViewSet,{'subject': [ErrorDetail(string='该字段是必填项。', code='required')], 'pay_type': [ErrorDetail(string='该字段是必填项。', code='required')], 'order_mount': [ErrorDetail(string='该字段是必填项。', code='required')], 'address': [ErrorDetail(string='该字段是必填项。', code='required')], 'signer_name': [ErrorDetail(string='该字段是必填项。', code='required')], 'singer_mobile': [ErrorDetail(string='该字段是必填项。', code='required')]}
+ERROR 2021-08-09 14:23:33,457 exceptions 11480 37220 view:OrderViewSet,Error decoding signature.
+ERROR 2021-08-09 14:23:38,861 exceptions 11480 1268 view:AddressViewSet,Error decoding signature.
+ERROR 2021-08-09 14:23:40,418 exceptions 11480 35720 view:OrderViewSet,Error decoding signature.
+ERROR 2021-08-09 14:23:41,441 exceptions 11480 37220 view:AddressViewSet,Error decoding signature.
+ERROR 2021-08-09 14:23:42,386 exceptions 11480 37220 view:OrderViewSet,Error decoding signature.
+ERROR 2021-08-09 14:23:43,028 exceptions 11480 35720 view:AddressViewSet,Error decoding signature.
+ERROR 2021-08-09 14:23:43,765 exceptions 11480 1268 view:OrderViewSet,Error decoding signature.
+ERROR 2021-08-09 14:23:44,989 exceptions 11480 1268 view:UserView,Error decoding signature.
+ERROR 2021-08-09 14:23:46,546 exceptions 11480 37220 view:UserFavViewSet,Error decoding signature.
+ERROR 2021-08-09 15:23:30,803 exceptions 1720 36136 view:SuccessPayView,Cannot resolve keyword 'out_trade_no' into field. Choices are: address, create_time, goods, id, order_mount, order_sn, pay_status, pay_time, pay_type, post_script, signer_name, singer_mobile, subject, trade_no, user, user_id
+ERROR 2021-08-09 15:31:58,233 exceptions 30980 32444 view:SuccessPayView,'NoneType' object has no attribute 'pay_status'
+ERROR 2021-08-09 15:32:07,128 exceptions 30980 32444 view:SuccessPayView,'dict' object has no attribute 'dict'
+ERROR 2021-08-09 16:20:36,187 exceptions 29312 32224 view:SuccessPayView,invalid syntax (settings.py, line 13)
+ERROR 2021-08-09 16:20:57,020 exceptions 29312 32224 view:SuccessPayView,'NoneType' object has no attribute 'encode'
+ERROR 2021-08-09 16:21:49,578 exceptions 29184 28028 view:SuccessPayView,'NoneType' object has no attribute 'encode'
+ERROR 2021-08-09 16:22:18,575 exceptions 20520 16076 view:SuccessPayView,'NoneType' object has no attribute 'encode'
+ERROR 2021-08-09 16:22:43,052 exceptions 20520 16076 view:SuccessPayView,'NoneType' object has no attribute 'encode'
+ERROR 2021-08-09 16:22:49,718 exceptions 33408 24888 view:SuccessPayView,'NoneType' object has no attribute 'encode'
+ERROR 2021-08-09 16:23:15,415 exceptions 33408 24888 view:SuccessPayView,'NoneType' object has no attribute 'encode'
+ERROR 2021-08-09 16:23:20,008 exceptions 37196 21012 view:SuccessPayView,'NoneType' object has no attribute 'encode'
